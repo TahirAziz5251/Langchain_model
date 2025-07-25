@@ -1,0 +1,32 @@
+# Ignore virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment variables file
+.env
+
+# Ignore Jupyter & Colab checkpoints
+.ipynb_checkpoints/
+
+# Ignore data and models (keep small sample data in /data if needed)
+data/
+models/
+*.h5
+*.ckpt
+*.pt
+*.pth
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
